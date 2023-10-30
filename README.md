@@ -32,6 +32,15 @@ jquery-org
 
 ## jquery 学习
 
+用过 jquery 的同学都知道 jquery 暴露给应用程序的是一个 jquery 对象，然后通过这个 jquery 对象获取 HTML 中的元素，然后对元素进行 DOM 操作。
+
+```js
+$(xxx).css(xxx);
+$(yyy).html('xxx').css(xxx);
+```
+
+那么将从 jquery 对象如何构建到 jquery 对象如何获取、操作元素为思路进行源码阅读，并对常见的 DOM 操作进行 jquery 方式和原生 DOM 方式进行对比
+
 ### 应用学习方式
 
 学习常用 jquery 方法的使用，参考
@@ -39,6 +48,8 @@ jquery-org
 [https://www.w3school.com.cn/jquery/jquery_ref_selectors.asp]: 	"w3school 参考手册"
 
 进行用例学习。边用边读源码
+
+
 
 ### 源码学习方式
 
